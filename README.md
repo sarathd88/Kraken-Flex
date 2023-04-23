@@ -1,5 +1,3 @@
-# Kraken-Flex
-KrakenFlex Back End Test
 API Outage Management System
 This is a Python program that interacts with an API to manage outages. The program reads an API Swagger specification file, loads API key and URL from a config file, retrieves outages from the API, filters out outages that began before a specific date or don't have an ID that is in the list of devices in the site information, and sends the filtered and formatted outages back to the API.
 
@@ -23,7 +21,7 @@ Run the program by executing python main.py.
 How to Run the Tests
 Ensure that the program and its dependencies are installed.
 Run the tests by executing pytest in the terminal.
-You can also run a specific test by executing pytest test_kraken.py
+You can also run a specific test by executing pytest <test_name>, where <test_name> is the name of the test function.
 requirements.txt:
 
 requests
