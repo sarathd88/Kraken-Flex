@@ -21,7 +21,7 @@ Run the program by executing python main.py.
 How to Run the Tests
 Ensure that the program and its dependencies are installed.
 Run the tests by executing pytest in the terminal.
-You can also run a specific test by executing pytest <test_name>, where <test_name> is the name of the test function.
+You can also run a specific test by executing pytest test_kraken.py.
 requirements.txt:
 
 requests
@@ -29,3 +29,5 @@ PyYAML
 pandas
 configparser
 pytest
+Also provided setup.py if the solution needs to be packaged. 
+There is a docker file provided if the solution needs to be containerized. 
